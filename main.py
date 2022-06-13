@@ -40,4 +40,5 @@ cityTemps = []
 for city in cities:
     cityTemps.append([city, get_temp(city)])
 
-find_highest_temp(cityTemps)
+maxtemp = find_highest_temp(cityTemps)
+

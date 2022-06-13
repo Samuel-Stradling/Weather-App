@@ -6,4 +6,5 @@ def find_highest_temp(cityTemps):
         if location[1] > maxTemp:
             maxTemp = location[1]
             maxCity = location[0]
-    print(f"The hottest city is {maxCity} at {maxTemp} degrees")
+    #print(f"The hottest city is {maxCity} at {maxTemp} degrees")
+    return maxCity, maxTemp
