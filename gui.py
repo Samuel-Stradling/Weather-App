@@ -1,7 +1,7 @@
 from tkinter import *
 import tkinter.font as font
 from tempchecker import find_highest_temp
-from main import maxtemp
+from api import maxtemp
 
 window = Tk()
 # add widgets here
