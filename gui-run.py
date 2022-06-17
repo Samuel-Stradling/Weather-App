@@ -1,8 +1,7 @@
 from tkinter import *
 import tkinter.font as font
 from tempchecker import find_highest_temp
-from api import maxtemp
-
+from api import maxtemp, processTime
 
 
 window = Tk()
@@ -16,6 +15,7 @@ window.eval('tk::PlaceWindow . center')
 def display_max_temp():
     a = Label(window, text=maxtemp)
     a.place(relx=0.4, rely=0.65)
+    print(f"process[{processTime}s]")
 
 
 myFont = font.Font(family='Arial', weight="bold")

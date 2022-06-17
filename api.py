@@ -3,6 +3,7 @@ from cities import cities
 from tempchecker import find_highest_temp
 import time
 
+tic = time.gmtime()
 
 # api key
 with open('key.txt', 'r') as keyFile:
@@ -41,3 +42,6 @@ for city in cities:
     cityTemps.append([city, get_temp(city)])
 
 maxtemp = find_highest_temp(cityTemps)
+
+toc = time.gmtime()
+processTime = abs(tic[5] - toc[5])
