@@ -13,6 +13,7 @@ window.eval('tk::PlaceWindow . center')
 
 
 def display_max_temp():
+    
     a = Label(window, text=maxtemp)
     a.place(relx=0.4, rely=0.65)
     print(f"process[{processTime}s]")
