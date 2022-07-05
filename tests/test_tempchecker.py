@@ -18,6 +18,8 @@ class TestCalc(unittest.TestCase):
 
         self.assertTupleEqual(find_highest_temp(
             [["a", -5], ["b", -12], ["c", -643], ["d", -23], ["e", -6]]), ("a", -5))
+        self.assertTupleEqual(find_highest_temp(
+            [["a", -122], ["b", -12], ["c", -643], ["d", -23], ["e", -6]]), ("e", -6))
         
     def test_find_lowest_temp(self):
         self.assertTupleEqual(find_lowest_temp(
