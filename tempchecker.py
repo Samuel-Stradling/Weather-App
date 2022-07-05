@@ -14,7 +14,7 @@ def find_lowest_temp(cityTemps):
     minTemp = cityTemps[0][1]
     minCity = ""
     for location in cityTemps:
-        if location[1] < minTemp:
+        if location[1] <= minTemp:
             minTemp = location[1]
             minCity = location[0]
     #print(f"The hottest city is {maxCity} at {maxTemp} degrees")
