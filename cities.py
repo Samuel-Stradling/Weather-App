@@ -8,23 +8,23 @@ cities = [
     "Canterbury",
     "Carlisle,+GB",
     "Chelmsford",
-    "Chester,+GB"
+    "Chester,+GB",
     "Chichester",
     "Colchester",
     "Coventry",
     "Derby",
     "Doncaster",
-    "Durham,+GB"
+    "Durham,+GB",
     "Ely",
-    "Exeter",
+    "Exeter,+GB",
     "Gloucester",
     "Hereford",
     "Kingston+upon+Hull",
-    "Lancaster,+GB"
+    "Lancaster,+GB",
     "Leeds",
     "Leicester",
     "Lichfield",
-    "Lincoln,+GB"
+    "Lincoln,+GB",
     "Liverpool",
     "London",
     "Manchester",
@@ -34,7 +34,7 @@ cities = [
     "Nottingham",
     "Oxford",
     "Peterborough",
-    "Plymouth,+GB"
+    "Plymouth,+GB",
     "Portsmouth",
     "Preston",
     "Ripon",
@@ -49,9 +49,9 @@ cities = [
     "Truro",
     "Wakefield",
     "Wells",
-    "Westminster,+GB"
+    "Westminster,+GB",
     "Winchester",
     "Wolverhampton",
-    "Worcester,+GB"
+    "Worcester,+GB",
     "York,+GB"
 ]
