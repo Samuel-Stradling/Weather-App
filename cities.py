@@ -42,4 +42,5 @@ cities = [
     "Wakefield",
     "Wells",
     "Winchester",
-    "Wolverhampton"]
+    "Wolverhampton",
+]
