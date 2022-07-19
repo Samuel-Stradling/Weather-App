@@ -1,23 +1,30 @@
 cities = [
     "Bath",
+    "Birmingham,+GB",
     "Bradford",
     "Brighton+and+Hove",
-    "Cambridge",
+    "Bristol,+GB"
+    "Cambridge,+GB",
     "Canterbury",
+    "Carslisle,+GB"
     "Chelmsford",
+    "Chester,+GB"
     "Chichester",
     "Colchester",
     "Coventry",
     "Derby",
     "Doncaster",
+    "Durham,+GB"
     "Ely",
     "Exeter",
     "Gloucester",
     "Hereford",
     "Kingston+upon+Hull",
+    "Lancaster,+GB"
     "Leeds",
     "Leicester",
     "Lichfield",
+    "Lincoln,+GB"
     "Liverpool",
     "London",
     "Manchester",
@@ -27,6 +34,7 @@ cities = [
     "Nottingham",
     "Oxford",
     "Peterborough",
+    "Plymouth,+GB"
     "Portsmouth",
     "Preston",
     "Ripon",
@@ -41,6 +49,9 @@ cities = [
     "Truro",
     "Wakefield",
     "Wells",
+    "Westminster,+GB"
     "Winchester",
     "Wolverhampton",
+    "Worcester,+GB"
+    "York,+GB"
 ]
