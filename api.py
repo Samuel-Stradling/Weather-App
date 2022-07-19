@@ -1,6 +1,6 @@
 import requests
 from cities import cities
-from tempchecker import find_highest_temp
+from tempchecker import find_highest_temp, find_lowest_temp
 import time
 
 tic = time.gmtime()
@@ -42,6 +42,7 @@ for city in cities:
     cityTemps.append([city, get_temp(city)])
 
 maxtemp = find_highest_temp(cityTemps)
+mintemp = find_lowest_temp(cityTemps)
 
 toc = time.gmtime()
 processTime = abs(tic[5] - toc[5])
