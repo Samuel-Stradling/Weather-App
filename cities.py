@@ -6,7 +6,7 @@ cities = [
     "Bristol,+GB"
     "Cambridge,+GB",
     "Canterbury",
-    "Carslisle,+GB"
+    "Carslisle,+GB",
     "Chelmsford",
     "Chester,+GB"
     "Chichester",
