@@ -1,6 +1,5 @@
 from tkinter import *
 import tkinter.font as font
-from tempchecker import find_highest_temp
 from api import maxtemp, processTime
 
 
