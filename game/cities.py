@@ -1,4 +1,4 @@
-cities = ["Tokyo",
+cities = ("Tokyo",
           "Jakarta",
           "Delhi",
           "Manila",
@@ -50,4 +50,4 @@ cities = ["Tokyo",
           "Nairobi",
           "Barcelona",
           "Alexandria",
-          "Kabul"]
+          "Kabul")
