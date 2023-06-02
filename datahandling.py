@@ -1,8 +1,6 @@
 import requests
 from cities import cities as citiesTuple  # tuple containing england cities
-import time
 
-tic = time.gmtime()  # starts the timer for the process
 
 
 # API KEY DIRECTORY, MAY NEED TO CHANGE DEPENDING ON WHERE IT IS STORED
@@ -50,7 +48,7 @@ def get_temp(city_name):
 
         current_temperature = weatherData["temp"]
     else:
-        raise ValueError("city not found")
+        raise ValueError()
     return round((current_temperature - 273.15), 2)
 
 
@@ -70,9 +68,3 @@ coolestCity = min(cityTemps, key=cityTemps.get)
 coolestTemp = cityTemps[coolestCity]
 
 
-toc = time.gmtime()  # ends the timer for the process
-
-processTime = abs(tic[5] - toc[5])
-
-
-print(5 + 5)
