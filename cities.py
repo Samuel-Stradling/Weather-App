@@ -1,4 +1,4 @@
-cities = [
+cities = (
     "Bath",
     "Birmingham,+GB",
     "Bradford",
@@ -54,4 +54,4 @@ cities = [
     "Wolverhampton",
     "Worcester,+GB",
     "York,+GB"
-]
+)
