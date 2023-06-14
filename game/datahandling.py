@@ -1,10 +1,15 @@
 import requests
+import os
 from globalcities import cities as citiesTuple  # tuple containing england cities
 
+# Get the current directory of the script
+workingDir = os.path.dirname(os.path.abspath(__file__))
 
+# Construct the path to the key txt file in the main project folder
+keyTxtPath = os.path.join(workingDir, '..', 'key.txt')
 
 # API KEY DIRECTORY, MAY NEED TO CHANGE DEPENDING ON WHERE IT IS STORED
-APIKeyDirectory = "key.txt"
+APIKeyDirectory = keyTxtPath
 
 
 with open(APIKeyDirectory, "r") as keyFile:
@@ -14,7 +19,7 @@ with open(APIKeyDirectory, "r") as keyFile:
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 
-def get_temp(city_name):
+def get_temperature(city_name):
     """Returns the temperature of a given city.
 
     If the argument 'city_name' is not found in the API repsonse, raises ValueError
