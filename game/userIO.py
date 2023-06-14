@@ -3,7 +3,6 @@ from datahandling import get_temp
 from globalcities import cities
 
 running = True
-#is this really true
 while running:
     errorInterval = 2
     randomIndex = random.randint(0, len(cities) - 1)
