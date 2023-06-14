@@ -1,1 +1,0 @@
-# do error checking for user input, so that it doesn't crash on wrong data type
