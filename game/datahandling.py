@@ -1,5 +1,5 @@
 import requests
-from cities import cities as citiesTuple  # tuple containing england cities
+from globalcities import cities as citiesTuple  # tuple containing england cities
 
 
 
