@@ -60,7 +60,7 @@ def get_temperature(city_name):
 cityTemps = {}
 for city in citiesTuple:
     try:
-        cityTemps[city] = get_temp(city)
+        cityTemps[city] = get_temperature(city)
     except ValueError:
         print(f"No data found for {city}")
         continue
