@@ -40,7 +40,7 @@ while True:
         city = city.replace("+", " ")
 
     print(
-        f"\n\nYou will have 3 guesses to guess the temperatureerature of the given city within {errorInterval} degrees Celsius."
+        f"\n\nYou will have 3 guesses to guess the temperature of the given city within {errorInterval} degrees Celsius."
     )
 
     guessNumber = 3
